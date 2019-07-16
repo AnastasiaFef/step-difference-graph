@@ -1,20 +1,14 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { ChartsModule } from 'ng2-charts';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+import { ChartsModule } from "ng2-charts";
 
-import { AppComponent } from './app.component';
-import { LineChartComponent } from '../line-chart/line-chart.component';
+import { AppComponent } from "./app.component";
+import { LineChartModule } from "./line-chart/line-chart.module";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    LineChartComponent
-  ],
-  imports: [
-    BrowserModule,
-    ChartsModule
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, ChartsModule, LineChartModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
