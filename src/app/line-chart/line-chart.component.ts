@@ -4,8 +4,10 @@ import { Color, BaseChartDirective, Label } from "ng2-charts";
 import * as pluginAnnotations from "chartjs-plugin-annotation";
 
 import { StepsService } from "../shared/services/steps.service";
-import { Steps } from "../shared/models/steps-obj.model";
+import { FakeSteps } from "../shared/models/fake-steps.model";
 import { FakeStepsService } from "../shared/services/fake-steps.service";
+import { forkJoin } from "rxjs";
+import { Steps } from '../shared/models/steps.model';
 
 @Component({
   selector: "app-line-chart",
@@ -14,12 +16,13 @@ import { FakeStepsService } from "../shared/services/fake-steps.service";
 export class LineChartComponent implements OnInit {
   rangeFrom: string = "2018-10-01";
   rangeTo: string = "2018-10-31";
-  steps: string;
-  fakeSteps;
+  fakeSteps: FakeSteps;
+  steps: Steps;
   selectedDates: string[] = [];
   selectedFakeSteps: number[] = [];
   selectedTrackedSteps: number[] = [0,0,0,0,0,0,0,3000,2000,0,0,0,0,0,0,0,0,0,0,12000,0,0,0,0,2832,13456,0,0,0,0,0]; //hardcoded data that I should receive from the API
   selectedStepsDiff: number[] = [];
+  isDataAvailable: boolean;
 
   constructor(
     private stepsService: StepsService,
@@ -27,36 +30,23 @@ export class LineChartComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    //CORS REGECTION ON LOCALHOST!!!!
-    // this.stepsService
-    //   .getStepsByDateRange(this.rangeFrom, this.rangeTo)
-    //   .subscribe((steps: Steps) => {
-    //     if (steps) {
-    //       this.steps = JSON.stringify(steps);
-    //     }
-    //   });
-
-    this.fakeStepsService.getFakeSteps().subscribe((steps: Steps) => {
-      if (steps) {
-        this.fakeSteps = steps;
-        this.getSteps(this.fakeSteps, this.rangeFrom, this.rangeTo);
-        this.getDiff(this.selectedFakeSteps, this.selectedTrackedSteps);
-      }
+    forkJoin(
+      //this.stepsService.getStepsByDateRange(rangeFrom, rangeTo),
+      this.fakeStepsService.getFakeSteps(this.rangeFrom, this.rangeTo)
+    ).subscribe(([fakeSteps]) => {
+      //this.steps = steps;
+      this.fakeSteps = fakeSteps;
+      this.isDataAvailable = true;
+      this.getSteps(this.fakeSteps);
+      this.getDiff(this.selectedFakeSteps, this.selectedTrackedSteps)
     });
   }
 
-  getSteps(stepsArr, dateFrom: string, dateTo: string) {
-    const startDate = new Date(dateFrom);
-    const endDate = new Date(dateTo);
+  getSteps(stepsArr) {
     for (let i = 0; i < stepsArr.length; i++) {
-      let currDate = new Date(stepsArr[i].date);
-      if (startDate <= currDate && currDate <= endDate) {
         this.selectedDates.push(stepsArr[i].date);
         this.selectedFakeSteps.push(+stepsArr[i].steps);
-      }
     }
-    console.log(this.selectedDates);
-    console.log(this.selectedFakeSteps);
   }
 
   getDiff(fakeSteps: number[], steps: number[]) {

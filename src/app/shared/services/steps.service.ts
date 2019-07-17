@@ -1,5 +1,7 @@
 import { Injectable } from "@angular/core";
 import { HttpClient, HttpHeaders } from "@angular/common/http";
+import { Steps } from "../models/steps.model";
+import { Observable } from "rxjs";
 
 @Injectable({
   providedIn: "root"
@@ -7,7 +9,7 @@ import { HttpClient, HttpHeaders } from "@angular/common/http";
 export class StepsService {
   constructor(private http: HttpClient) {}
 
-  getStepsByDateRange(from: string, to: string) {
+  getStepsByDateRange(from: string, to: string): Observable<Steps> {
     const requestHeaders = {
       "Cache-Control": "no-cache",
       group_guids:
@@ -20,7 +22,7 @@ export class StepsService {
       headers: new HttpHeaders(requestHeaders)
     };
 
-    return this.http.get(
+    return this.http.get<Steps>(
       `https://i2-ui-support.denqa01.kube.ch.int/v2/program/1c25e325-d713-48da-92f5-0a105c55e480/trackedDays?from=${from}&to=${to}`,
       requestOptions
     );
