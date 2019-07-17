@@ -7,7 +7,7 @@ import { StepsService } from "../shared/services/steps.service";
 import { FakeSteps } from "../shared/models/fake-steps.model";
 import { FakeStepsService } from "../shared/services/fake-steps.service";
 import { forkJoin } from "rxjs";
-import { Steps } from '../shared/models/steps.model';
+import { TrackedDays } from '../shared/models/tracked-days.model';
 
 @Component({
   selector: "app-line-chart",
@@ -16,11 +16,11 @@ import { Steps } from '../shared/models/steps.model';
 export class LineChartComponent implements OnInit {
   rangeFrom: string = "2018-10-01";
   rangeTo: string = "2018-10-31";
-  fakeSteps: FakeSteps;
-  steps: Steps;
+  fakeSteps: FakeSteps[];
+  steps: TrackedDays[];
   selectedDates: string[] = [];
   selectedFakeSteps: number[] = [];
-  selectedTrackedSteps: number[] = [0,0,0,0,0,0,0,3000,2000,0,0,0,0,0,0,0,0,0,0,12000,0,0,0,0,2832,13456,0,0,0,0,0]; //hardcoded data that I should receive from the API
+  selectedTrackedSteps: number[] = [];
   selectedStepsDiff: number[] = [];
   isDataAvailable: boolean;
 
@@ -31,18 +31,29 @@ export class LineChartComponent implements OnInit {
 
   ngOnInit() {
     forkJoin(
-      //this.stepsService.getStepsByDateRange(rangeFrom, rangeTo),
+      this.stepsService.getStepsByDateRange(this.rangeFrom, this.rangeTo),
       this.fakeStepsService.getFakeSteps(this.rangeFrom, this.rangeTo)
-    ).subscribe(([fakeSteps]) => {
-      //this.steps = steps;
-      this.fakeSteps = fakeSteps;
+    ).subscribe(([steps, fakeSt]) => {
+      this.steps = steps;
+      this.fakeSteps = fakeSt;
       this.isDataAvailable = true;
-      this.getSteps(this.fakeSteps);
+      this.getFakeStepsArray(this.fakeSteps);
+      this.getStepsArray(this.steps)
       this.getDiff(this.selectedFakeSteps, this.selectedTrackedSteps)
-    });
+    }, (error) => {
+      console.log("there was an error: ", error)
+    }
+    );
   }
 
-  getSteps(stepsArr) {
+  getStepsArray(stepsArr: TrackedDays[]) {
+    for (let i = 0; i < stepsArr.length; i++) {
+      let count = stepsArr[i].activities[0]["trackedValue"];
+      count ? this.selectedTrackedSteps.push(+count) : this.selectedTrackedSteps.push(0);
+    }
+  }
+
+  getFakeStepsArray(stepsArr: FakeSteps[]) {
     for (let i = 0; i < stepsArr.length; i++) {
         this.selectedDates.push(stepsArr[i].date);
         this.selectedFakeSteps.push(+stepsArr[i].steps);

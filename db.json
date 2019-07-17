@@ -1,5 +1,5 @@
 {
-  "trackedDays": [
+  "fakeTrackedDays": [
     {
       "date": "2018-10-01",
       "steps": 0
@@ -1172,5 +1172,2815 @@
       "date": "2019-07-20",
       "steps": 0
     }
-  ]
+  ],
+    "incentives": [
+        {
+            "target": "5000",
+            "rewardAmount": 5
+        },
+        {
+            "target": "7000",
+            "rewardAmount": 2
+        },
+        {
+            "target": "10000",
+            "rewardAmount": 3
+        }
+    ],
+    "totalPointsEarnedInDateRange": [0],
+    "trackedDays": [
+        {
+            "date": "2018-08-01",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-02",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-03",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-04",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-05",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-06",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-07",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-08",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-09",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-10",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-11",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-12",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-13",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-14",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-15",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-16",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-17",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-18",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-19",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-20",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-21",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-22",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-23",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-24",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-25",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-26",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-27",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-28",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-29",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-30",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-08-31",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-01",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-02",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-03",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-04",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-05",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-06",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-07",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-08",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-09",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-10",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-11",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-12",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-13",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-14",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-15",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-16",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-17",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-18",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-19",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-20",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-21",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-22",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-23",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-24",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-25",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-26",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-27",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-28",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-29",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-09-30",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-01",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-02",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-03",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-04",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-05",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-06",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-07",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-08",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "trackedValue": "3000",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "trackedValue": "3000",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "trackedValue": "3000",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-09",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "trackedValue": "2000",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "trackedValue": "2000",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "trackedValue": "2000",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-10",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-11",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-12",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-13",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-14",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-15",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-16",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-17",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-18",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-19",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-20",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "trackedValue": "11000",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "trackedValue": "11000",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "trackedValue": "11000",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-21",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-22",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-23",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-24",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-25",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "trackedValue": "2300",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "trackedValue": "2300",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "trackedValue": "2300",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-26",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "trackedValue": "15500",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "trackedValue": "15500",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "trackedValue": "15500",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-27",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-28",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-29",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-30",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-10-31",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-01",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "trackedValue": "15000",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "trackedValue": "15000",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "trackedValue": "15000",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-02",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-03",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "trackedValue": "10000",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "trackedValue": "10000",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "trackedValue": "10000",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-04",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-05",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-06",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-07",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-08",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-09",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-10",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-11",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-12",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-13",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-14",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-15",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-16",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-17",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-18",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-19",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-20",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-21",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-22",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-23",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-24",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-25",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-26",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-27",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-28",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "trackedValue": "79000",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "trackedValue": "79000",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "trackedValue": "79000",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-29",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-11-30",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "trackedValue": "23000",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "trackedValue": "23000",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "trackedValue": "23000",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-01",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-02",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "trackedValue": "12000",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "trackedValue": "12000",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "trackedValue": "12000",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-03",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "trackedValue": "135600",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "trackedValue": "135600",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "trackedValue": "135600",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-04",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-05",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-06",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "trackedValue": "7800",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "trackedValue": "7800",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "trackedValue": "7800",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-07",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "trackedValue": "7700",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "trackedValue": "7700",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "trackedValue": "7700",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-08",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-09",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-10",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-11",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-12",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-13",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-14",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-15",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-16",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-17",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-18",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-19",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-20",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-21",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-22",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-23",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-24",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-25",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-26",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-27",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-28",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-29",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-30",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        },
+        {
+            "date": "2018-12-31",
+            "activities": [
+                {
+                    "name": "Walked 5,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 7,000 steps",
+                    "pointsEarned": 0
+                },
+                {
+                    "name": "Walked 10,000 steps",
+                    "pointsEarned": 0
+                }
+            ],
+            "totalPointsEarned": 0
+        }
+    ]
 }

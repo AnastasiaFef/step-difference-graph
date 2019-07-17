@@ -1,7 +1,14 @@
 <div class="flex">
   <div class="flex-item">
     <div style="display: block;">
-      <canvas *ngIf="isDataAvailable"
+      <div
+        *ngIf="!isDataAvailable"
+        style="width:80%; background-color: lightgrey; margin:30px auto; padding:20px; text-align:center"
+      >
+        Loading...
+      </div>
+      <canvas
+        *ngIf="isDataAvailable"
         baseChart
         width="300"
         height="150"

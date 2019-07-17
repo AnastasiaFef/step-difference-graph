@@ -9,9 +9,9 @@ import { FakeSteps } from "../models/fake-steps.model";
 export class FakeStepsService {
   constructor(private http: HttpClient) {}
 
-  getFakeSteps(fromDate: string, toDate: string): Observable<FakeSteps> {
-    return this.http.get<FakeSteps>(
-      `http://localhost:3000/trackedDays?date_gte=${fromDate}&date_lte=${toDate}`
+  getFakeSteps(fromDate: string, toDate: string): Observable<FakeSteps[]> {
+    return this.http.get<FakeSteps[]>(
+      `http://localhost:3000/fakeTrackedDays?date_gte=${fromDate}&date_lte=${toDate}`
     );
   }
 }
