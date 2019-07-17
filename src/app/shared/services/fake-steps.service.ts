@@ -7,7 +7,7 @@ import { HttpClient, HttpHeaders } from "@angular/common/http";
 export class FakeStepsService {
   constructor(private http: HttpClient) {}
 
-  getFakeStepsByDateRange(from: string, to: string) {
+  getFakeSteps() {
     return this.http.get(`http://localhost:3000/trackedDays`);
   }
 }

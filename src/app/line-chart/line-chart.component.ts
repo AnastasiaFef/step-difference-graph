@@ -15,7 +15,11 @@ export class LineChartComponent implements OnInit {
   rangeFrom: string = "2018-10-01";
   rangeTo: string = "2018-10-31";
   steps: string;
-  fakeSteps: string;
+  fakeSteps;
+  selectedDates: string[] = [];
+  selectedFakeSteps: number[] = [];
+  selectedTrackedSteps: number[] = [0,0,0,0,0,0,0,3000,2000,0,0,0,0,0,0,0,0,0,0,12000,0,0,0,0,2832,13456,0,0,0,0,0]; //hardcoded data that I should receive from the API
+  selectedStepsDiff: number[] = [];
 
   constructor(
     private stepsService: StepsService,
@@ -32,45 +36,50 @@ export class LineChartComponent implements OnInit {
     //     }
     //   });
 
-    this.fakeStepsService
-      .getFakeStepsByDateRange(this.rangeFrom, this.rangeTo)
-      .subscribe((steps: Steps) => {
-        if (steps) {
-          this.fakeSteps = JSON.stringify(steps);
-        }
-      });
+    this.fakeStepsService.getFakeSteps().subscribe((steps: Steps) => {
+      if (steps) {
+        this.fakeSteps = steps;
+        this.getSteps(this.fakeSteps, this.rangeFrom, this.rangeTo);
+        this.getDiff(this.selectedFakeSteps, this.selectedTrackedSteps);
+      }
+    });
+  }
+
+  getSteps(stepsArr, dateFrom: string, dateTo: string) {
+    const startDate = new Date(dateFrom);
+    const endDate = new Date(dateTo);
+    for (let i = 0; i < stepsArr.length; i++) {
+      let currDate = new Date(stepsArr[i].date);
+      if (startDate <= currDate && currDate <= endDate) {
+        this.selectedDates.push(stepsArr[i].date);
+        this.selectedFakeSteps.push(+stepsArr[i].steps);
+      }
+    }
+    console.log(this.selectedDates);
+    console.log(this.selectedFakeSteps);
+  }
+
+  getDiff(fakeSteps: number[], steps: number[]) {
+    for (let i = 0; i < fakeSteps.length; i++) {
+      this.selectedStepsDiff.push(fakeSteps[i] - steps[i]);
+    }
   }
 
   public lineChartData: ChartDataSets[] = [
-    //will update with int API data:
     {
-      data: [10342, 6352, 3372, 3253, 6322, 5345, 4350, 3252, 10234, 13942],
+      data: this.selectedTrackedSteps,
       label: "Synced"
     },
-    //to be updated with dummy API data:
     {
-      data: [13003, 7605, 3645, 3705, 7332, 5618, 4750, 3352, 11344, 15000],
+      data: this.selectedFakeSteps,
       label: "Tracked"
     },
-    //update to calculate the difference:
     {
-      data: [2661, 1253, 273, 452, 1010, 273, 400, 100, 1110, 1038],
+      data: this.selectedStepsDiff,
       label: "Difference"
     }
   ];
-  //update to insert days of the month:
-  public lineChartLabels: Label[] = [
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "10"
-  ];
+  public lineChartLabels: Label[] = this.selectedDates;
   public lineChartColors: Color[] = [
     {
       // grey
