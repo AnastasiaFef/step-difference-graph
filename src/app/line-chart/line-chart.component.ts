@@ -3,11 +3,44 @@ import { ChartDataSets } from "chart.js";
 import { Color, BaseChartDirective, Label } from "ng2-charts";
 import * as pluginAnnotations from "chartjs-plugin-annotation";
 
+import { StepsService } from "../shared/services/steps.service";
+import { Steps } from "../shared/models/steps-obj.model";
+import { FakeStepsService } from "../shared/services/fake-steps.service";
+
 @Component({
   selector: "app-line-chart",
   templateUrl: "./line-chart.component.html"
 })
 export class LineChartComponent implements OnInit {
+  rangeFrom: string = "2018-10-01";
+  rangeTo: string = "2018-10-31";
+  steps: string;
+  fakeSteps: string;
+
+  constructor(
+    private stepsService: StepsService,
+    private fakeStepsService: FakeStepsService
+  ) {}
+
+  ngOnInit() {
+    //CORS REGECTION ON LOCALHOST!!!!
+    // this.stepsService
+    //   .getStepsByDateRange(this.rangeFrom, this.rangeTo)
+    //   .subscribe((steps: Steps) => {
+    //     if (steps) {
+    //       this.steps = JSON.stringify(steps);
+    //     }
+    //   });
+
+    this.fakeStepsService
+      .getFakeStepsByDateRange(this.rangeFrom, this.rangeTo)
+      .subscribe((steps: Steps) => {
+        if (steps) {
+          this.fakeSteps = JSON.stringify(steps);
+        }
+      });
+  }
+
   public lineChartData: ChartDataSets[] = [
     //will update with int API data:
     {
@@ -51,20 +84,20 @@ export class LineChartComponent implements OnInit {
     {
       // dark grey
       backgroundColor: "rgba(77,83,96,0.2)",
-      borderColor: "rgba(77,83,96,1)",
+      borderColor: "rgba(77,83,96,0.7)",
       pointBackgroundColor: "rgba(77,83,96,1)",
       pointBorderColor: "#fff",
       pointHoverBackgroundColor: "#fff",
       pointHoverBorderColor: "rgba(77,83,96,1)"
     },
     {
-      // red
-      backgroundColor: "rgba(255,0,0,0.3)",
-      borderColor: "red",
-      pointBackgroundColor: "rgba(148,159,177,1)",
+      // turquoise
+      backgroundColor: "rgba(9,189,201,0.3)",
+      borderColor: "turquoise",
+      pointBackgroundColor: "rgba(9,189,201,1)",
       pointBorderColor: "#fff",
       pointHoverBackgroundColor: "#fff",
-      pointHoverBorderColor: "rgba(148,159,177,0.8)"
+      pointHoverBorderColor: "rgba(9,189,201,1)"
     }
   ];
   public lineChartLegend = true;
@@ -72,8 +105,4 @@ export class LineChartComponent implements OnInit {
   public lineChartPlugins = [pluginAnnotations];
 
   @ViewChild(BaseChartDirective, { static: true }) chart: BaseChartDirective;
-
-  constructor() {}
-
-  ngOnInit() {}
 }

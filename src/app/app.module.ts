@@ -1,13 +1,13 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
-import { ChartsModule } from "ng2-charts";
+import { HttpClientModule } from "@angular/common/http";
 
 import { AppComponent } from "./app.component";
 import { LineChartModule } from "./line-chart/line-chart.module";
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, ChartsModule, LineChartModule],
+  imports: [BrowserModule, HttpClientModule, LineChartModule],
   providers: [],
   bootstrap: [AppComponent]
 })
