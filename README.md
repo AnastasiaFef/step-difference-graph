@@ -10,7 +10,8 @@ Install JSON Server
 
 ## Start the server
 
-Run `json-server --watch db.json` and `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
+1. Run `npm start` in the directory of the project. This command will trigger `json-server --watch db.json` (JSON server) and `ng serve` (Angular project). 
+2. Navigate to `http://localhost:4200/`.
 
 ## Running unit tests
 
