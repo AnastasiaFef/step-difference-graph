@@ -1,14 +1,32 @@
-import { TestBed, async } from "@angular/core/testing";
+import { TestBed, async, ComponentFixture } from "@angular/core/testing";
 import { LineChartComponent } from "./line-chart.component";
+import {
+  Component,
+  NO_ERRORS_SCHEMA
+} from "@angular/core";
+import { FakeStepsService } from "../shared/services/fake-steps.service";
+import { StepsService } from "../shared/services/steps.service";
+// import { provideMagicalMock } from "../shared/services/spyHelper";
+
+@Component({
+  selector: "canvas",
+  template: "<div></div>"
+})
+class MockCanvas {}
 
 describe("LineChartComponent", () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [LineChartComponent]
+      declarations: [LineChartComponent],
+      schemas: [NO_ERRORS_SCHEMA],
+      providers: [
+        // provideMagicalMock(FakeStepsService),
+        // provideMagicalMock(StepsService)
+      ]
     }).compileComponents();
   }));
 
-  describe("My first test suite", () => {
+  describe("Test suite", () => {
     it("should perform a simple test", () => {
       expect(true).toBe(true);
     });
@@ -20,18 +38,28 @@ describe("LineChartComponent", () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'my-first-project'`, () => {
-    const fixture = TestBed.createComponent(LineChartComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual("my-first-project");
-  });
-
-  it("should render title in a h1 tag", () => {
+  it("should render Loading message", () => {
     const fixture = TestBed.createComponent(LineChartComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector("h1").textContent).toContain(
-      "Welcome to my-first-project!"
-    );
+    expect(compiled.querySelector("div").textContent).toContain("Loading...");
   });
+
+//   describe("Steps", () => {
+//     let StepsServiceMock: jasmine.SpyObj<StepsService>;
+//     let component: StepsService;
+//     let fixture: ComponentFixture<StepsService>;
+
+//     beforeEach(() => {
+//       StepsServiceMock = TestBed.get(StepsService);
+//       fixture = TestBed.createComponent(StepsService);
+//       component = fixture.componentInstance;
+//       fixture.detectChanges();
+//     });
+
+//     it('should create', () => {
+//         expect(component).toBeTruthy();
+//     })
+
+//   });
 });
