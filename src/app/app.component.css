@@ -1,0 +1,27 @@
+.header {
+    border-bottom: 1px solid darkturquoise; 
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin: 0 15px; 
+    position: absolute;
+}
+
+.image {
+    width: 98%; 
+    margin: 1%;
+}
+
+.footer {
+    border-top: 1px solid black;
+}
+
+h4 {
+    margin: 20px auto; 
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}

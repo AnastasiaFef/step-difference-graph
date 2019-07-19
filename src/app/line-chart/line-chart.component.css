@@ -1,0 +1,11 @@
+.loading {
+    width:80%; 
+    background-color: lightgrey; 
+    margin:30px auto; 
+    padding:20px; 
+    text-align:center;
+}
+
+.container {
+    display: block;
+}

@@ -11,7 +11,8 @@ import { TrackedDays } from '../shared/models/tracked-days.model';
 
 @Component({
   selector: "app-line-chart",
-  templateUrl: "./line-chart.component.html"
+  templateUrl: "./line-chart.component.html",
+  styleUrls: ["./line-chart.component.css"]
 })
 export class LineChartComponent implements OnInit {
   rangeFrom: string = "2018-10-01";
