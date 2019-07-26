@@ -2,11 +2,11 @@ import { Component, OnInit, ViewChild } from "@angular/core";
 import { ChartDataSets } from "chart.js";
 import { Color, BaseChartDirective, Label } from "ng2-charts";
 import * as pluginAnnotations from "chartjs-plugin-annotation";
+import { forkJoin } from "rxjs";
 
 import { StepsService } from "../shared/services/steps.service";
 import { FakeSteps } from "../shared/models/fake-steps.model";
 import { FakeStepsService } from "../shared/services/fake-steps.service";
-import { forkJoin } from "rxjs";
 import { TrackedDays } from '../shared/models/tracked-days.model';
 
 @Component({

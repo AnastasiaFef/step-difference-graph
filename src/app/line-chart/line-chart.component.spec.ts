@@ -1,7 +1,7 @@
 import { TestBed, async } from "@angular/core/testing";
 import { LineChartComponent } from "./line-chart.component";
 import { NO_ERRORS_SCHEMA } from "@angular/core";
-import { of, Observable } from "rxjs";
+import { of } from "rxjs";
 
 import { FakeStepsService } from "../shared/services/fake-steps.service";
 import { StepsService } from "../shared/services/steps.service";
@@ -52,21 +52,21 @@ describe("LineChartComponent", () => {
   });
 
   xit("calculates the difference", () => {
-    stepsServiceSpy.getStepsByDateRange.and.returnValue(
-      of([
-        {
-          date: "2019-07-21",
-          activities: [
-            {
-              name: "",
-              trackedValue: "58",
-              pointsEarned: 100
-            }
-          ],
-          totalPointsEarned: 100
-        }
-      ])
-    );
+    // stepsServiceSpy.getStepsByDateRange.and.returnValue(
+    //   of([
+    //     {
+    //       date: "2019-07-21",
+    //       activities: [
+    //         {
+    //           name: "",
+    //           trackedValue: "58",
+    //           pointsEarned: 100
+    //         }
+    //       ],
+    //       totalPointsEarned: 100
+    //     }
+    //   ])
+    // );
 
     fakeStepsServiceSpy.getFakeSteps.and.returnValue(
       of([
