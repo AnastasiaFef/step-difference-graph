@@ -1,29 +1,35 @@
-import { TestBed, async, ComponentFixture } from "@angular/core/testing";
+import { TestBed, async } from "@angular/core/testing";
 import { LineChartComponent } from "./line-chart.component";
-import {
-  Component,
-  NO_ERRORS_SCHEMA
-} from "@angular/core";
+import { NO_ERRORS_SCHEMA } from "@angular/core";
+import { of, Observable } from "rxjs";
+
 import { FakeStepsService } from "../shared/services/fake-steps.service";
 import { StepsService } from "../shared/services/steps.service";
-// import { provideMagicalMock } from "../shared/services/spyHelper";
-
-@Component({
-  selector: "canvas",
-  template: "<div></div>"
-})
-class MockCanvas {}
 
 describe("LineChartComponent", () => {
+  let stepsServiceSpy: jasmine.SpyObj<StepsService>;
+  let fakeStepsServiceSpy: jasmine.SpyObj<FakeStepsService>;
+
   beforeEach(async(() => {
+    stepsServiceSpy = jasmine.createSpyObj("StepsService", [
+      "getStepsByDateRange"
+    ]);
+    fakeStepsServiceSpy = jasmine.createSpyObj("FakeStepsService", [
+      "getFakeSteps"
+    ]);
+
+    stepsServiceSpy.getStepsByDateRange.and.returnValue(of([]));
+    fakeStepsServiceSpy.getFakeSteps.and.returnValue(of([]));
+
     TestBed.configureTestingModule({
       declarations: [LineChartComponent],
       schemas: [NO_ERRORS_SCHEMA],
       providers: [
-        // provideMagicalMock(FakeStepsService),
-        // provideMagicalMock(StepsService)
+        LineChartComponent,
+        { provide: StepsService, useValue: stepsServiceSpy },
+        { provide: FakeStepsService, useValue: fakeStepsServiceSpy }
       ]
-    }).compileComponents();
+    });
   }));
 
   describe("Test suite", () => {
@@ -38,28 +44,41 @@ describe("LineChartComponent", () => {
     expect(app).toBeTruthy();
   });
 
-  it("should render Loading message", () => {
+  it("should render canvas", () => {
     const fixture = TestBed.createComponent(LineChartComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector("div").textContent).toContain("Loading...");
+    expect(compiled.querySelector("div.container canvas")).not.toBe(null);
   });
 
-//   describe("Steps", () => {
-//     let StepsServiceMock: jasmine.SpyObj<StepsService>;
-//     let component: StepsService;
-//     let fixture: ComponentFixture<StepsService>;
+  xit("calculates the difference", () => {
+    stepsServiceSpy.getStepsByDateRange.and.returnValue(
+      of([
+        {
+          date: "2019-07-21",
+          activities: [
+            {
+              name: "",
+              trackedValue: "58",
+              pointsEarned: 100
+            }
+          ],
+          totalPointsEarned: 100
+        }
+      ])
+    );
 
-//     beforeEach(() => {
-//       StepsServiceMock = TestBed.get(StepsService);
-//       fixture = TestBed.createComponent(StepsService);
-//       component = fixture.componentInstance;
-//       fixture.detectChanges();
-//     });
+    fakeStepsServiceSpy.getFakeSteps.and.returnValue(
+      of([
+        {
+          date: "2019-07-21",
+          steps: "100"
+        }
+      ])
+    );
 
-//     it('should create', () => {
-//         expect(component).toBeTruthy();
-//     })
-
-//   });
+    const fixture = TestBed.createComponent(LineChartComponent);
+    fixture.detectChanges();
+    expect(fixture.componentInstance.selectedStepsDiff[0]).toEqual(42);
+  });
 });
